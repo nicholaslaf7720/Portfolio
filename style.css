@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #B7D1DA
+}
+
+/* I wanted this to be the universal align for the page */
+.top-align {
+background-color: #43798A;
+text-align: center;
+margin: 0;
+padding: 15px 0 5px 20px;
+}
+
+.top-font {
+  font-family: 'Stencil Std', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: #B7D1DA
+}
+
+.nav-p {
+  color: #B7D1DA;
+  font-family: "Comic Sans MS";
+}
+
+.center-pic {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 15
+}
+
+/* this initally was to align and color my test */
+.center-text {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  color: #43798A;
+  margin: 10;
+}
+
+p {
+  font-size: 12px;
+  margin: 5;
+}
+
+/* for paragraphs i actually have no idea why i named it section sizing */
+.section-sizing {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 5 10 10 10;
+  color: #43798A;
+}
+
+ul {
+  color:black;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 13px;
+  padding-left: 50px
+}
+
+/* nice hr breaks in between although i couldve done something cooler */
+hr {
+background-color: #668284;
+  height: 4px;
+  
+}
+
+/* i messed up earlier with section sizing by putting it in the <article> tag and fixed it later with this */
+.p-fix {
+  text-align: center;
+  font-size: 12px;
+  color: #43798A;
+}
+
+/* fixed the picture size after it was so huge it took up half the page */
+.resize {
+  width: 300px;
+  height: auto
+}
+
+
+ol {
+color:black;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 13px;
+  padding-left: 50px
+  
+}
+
+/* couldve been cooler, but this will do */
+footer {
+background-color: #43798A;
+text-align: center;
+padding: 10px 0 5px 20px;
+font-family: "Times New Roman"
+}
